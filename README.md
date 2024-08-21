@@ -4,7 +4,7 @@
 
 # Super Calculator
 
-![Calculator Preview]([path/to/your/calculator-image.png](https://app.gemoo.com/share/image-annotation/684815068441960448?codeId=DGlwyk4L9Wlnb&origin=imageurlgenerator)) <!-- Replace with a screenshot of your calculator -->
+![Calculator Preview](https://app.gemoo.com/share/image-annotation/684815068441960448?codeId=DGlwyk4L9Wlnb&origin=imageurlgenerator) <!-- Replace with a screenshot of your calculator -->
 
 ## Description
 
