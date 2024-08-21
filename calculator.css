@@ -1,0 +1,143 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-family: Gotham Rounded, sans-serif;
+  font-weight: normal;
+  --color-1: rgb(255, 0, 0);
+  --color-2: rgb(255, 166, 0);
+  --color-3: rgb(238, 255, 0);
+  --color-4: rgb(30, 255, 0);
+  --color-5: rgb(0, 255, 255);
+  --color-6: rgb(4, 0, 255);
+  --color-7: rgb(140, 0, 255);
+  --color-8: rgb(255, 0, 170);
+  --bg-color-1: rgba(255, 255, 255, .60);
+  --bg-color-2: rgba(255, 255, 255, .75);
+  --bg-color-3: rgba(255, 255, 255, .90);
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: var(--color-1);
+  animation: change 80s infinite;
+}
+
+@keyframes change {
+  0% {
+      background-color: var(--color-1);
+  }
+  12.5% {
+      background-color: var(--color-2);
+  }
+  25% {
+      background-color: var(--color-3);
+  }
+  37.5% {
+      background-color: var(--color-4);
+  }
+  50% {
+      background-color: var(--color-5);
+  }
+  62.5% {
+      background-color: var(--color-6);
+  }
+  75% {
+      background-color: var(--color-7);
+  }
+  87.5% {
+      background-color: var(--color-8);
+  }
+  100% {
+      background-color: var(--color-1);
+  }
+}
+
+nav {
+  height: 1rem;
+}
+
+@media screen and (max-width: 1000px) {
+  nav {
+      height: 3rem;
+  }
+}
+
+.calculator-grid {
+  display: grid;
+  padding: 0.3rem;
+  min-height: fit-content;
+  min-width: fit-content;
+  justify-content: center;
+  grid-template-columns: repeat(4, 90px);
+  grid-template-rows: minmax(120px, auto) repeat(5, 90px);
+  border: 2px solid rgba(0, 0, 0, 0.5); /* Added border */
+  border-radius: 10px; /* Rounded corners for the calculator */
+  background-color: rgba(255, 255, 255, 0.2); /* Slight background color for visibility */
+}
+
+.calculator-grid > button {
+  cursor: pointer;
+  font-size: 2rem;
+  outline: none;
+  border: none;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  margin: 0.15rem;
+  background-color: var(--bg-color-2);
+  transition: background-color 0.3s, transform 0.3s; /* Transition for smooth effect */
+}
+
+.calculator-grid > button:hover {
+  background-color: var(--bg-color-3);
+  transform: scale(1.1); /* Increase size by 10% */
+}
+
+.calculator-grid > button:active {
+  background-color: var(--bg-color-1);
+}
+
+.span-two {
+  grid-column: span 2;
+}
+
+.output {
+  grid-column: 1 / -1;
+  margin: 0.15rem;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, .5);
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 10px;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.output #mini-display {
+  color: rgba(255, 255, 255, .75);
+  font-size: 1.5rem;
+}
+
+.output #main-display {
+  color: white;
+  font-size: 2.5rem;
+}
+
+/* Added copyright section */
+.footer {
+  grid-column: 1 / -1;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 10px;
+  font-size: 0.8rem;
+}
+
+/* Add styles for copyright */
+.copyright {
+  padding: 20px;
+  font-style: italic;
+  font-weight: 400;
+  font-size:1.5rem;
+  color: rgb(0, 0, 0);
+}
