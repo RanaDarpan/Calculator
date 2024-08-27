@@ -29,5 +29,5 @@ You can see the live version of the calculator[ https://ranadarpan.github.io/Cal
 To clone the repository, run the following command in your terminal:
 
 ```bash
-git clone https://github.com/<username>/<repository>.git
-cd <repository>
+git clone https://github.com/ranadarpan/Calculator.git
+cd Calculator
