@@ -4,7 +4,8 @@
 
 # Super Calculator
 
-![Calculator Preview](https://ibb.co/v18BHGk)) <!-- Replace with a screenshot of your calculator -->
+![Calculator Preview](![image](https://github.com/user-attachments/assets/a609a93d-707d-408c-adf9-2c6b80713f0f)
+)) <!-- Replace with a screenshot of your calculator -->
 
 ## Description
 
