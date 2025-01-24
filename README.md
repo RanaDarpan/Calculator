@@ -4,7 +4,7 @@
 
 # Super Calculator
 
-![Calculator Preview]([https://app.gemoo.com/share/image-annotation/684815068441960448?codeId=DGlwyk4L9Wlnb&origin=imageurlgenerator&card=684815065162014720](https://ibb.co/v18BHGk)) <!-- Replace with a screenshot of your calculator -->
+![Calculator Preview](https://ibb.co/v18BHGk)) <!-- Replace with a screenshot of your calculator -->
 
 ## Description
 
